@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="images/logo1.png" type="image/png" />
+		<link rel="stylesheet" href="style4.css" />
+		<title>Контакты</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="navigation">
+					<input type="checkbox" class="navigation__toggle" id="navi-toggle" />
+					<label for="navi-toggle" class="navigation__button">
+						<span class="navigation__icon"></span>
+					</label>
+					<div class="navigation__background"></div>
+					<div class="navigation__nav">
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a href="index.html" class="navigation__link">главная</a>
+							</li>
+							<li class="navigation__item">
+								<a href="index2.html" class="navigation__link" target="_blank"
+									>наши работы</a
+								>
+							</li>
+							<li class="navigation__item">
+								<a href="index3.html" class="navigation__link">о нас</a>
+							</li>
+							<li class="navigation__item">
+								<a href="index4.html" class="navigation__link">контакты</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-menu">
+					<ul class="header-menu__ul">
+						<li class="header-menu__li">
+							<a href="index.html" id="main">ГЛАВНАЯ</a>
+						</li>
+						<li class="header-menu__li">
+							<a href="index2.html" id="us-works">НАШИ РАБОТЫ</a>
+						</li>
+						<li class="header-menu__li">
+							<a href="index3.html" id="about-us">О НАС</a>
+						</li>
+						<li class="header-menu__li">
+							<a href="index4.html" id="contacts">КОНТАКТЫ</a>
+						</li>
+					</ul>
+				</div>
+				<hr class="header-hr" />
+			</div>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="feedBack">
+					<h2 class="feedBack-text">КОНТАКТЫ</h2>
+
+					<div class="feedBack-left__column">
+						<h3 class="feedBack__header">КОНТАКТНЫЕ ДАННЫЕ</h3>
+						<div class="left-column__info">
+							<h3 class="feedBack-h3">Адрес</h3>
+							<p class="feedBack-p">
+								г. Арск, Интернациональная ул., 27, этаж 3
+							</p>
+							<hr class="feedBack-hr" />
+							<h3 class="feedBack-h3">Телефон</h3>
+							<p class="feedBack-p">+7 (905) 374-74-44</p>
+							<hr class="feedBack-hr" />
+							<h3 class="feedBack-h3">Отдел маркетинга</h3>
+							<p class="feedBack-p">marketing@old-dutch.com</p>
+							<hr class="feedBack-hr" />
+							<a href="https://vk.com/katanabarbershop" target="_blank"
+								><img src="images/vk.png" alt="" class="social"
+							/></a>
+							<a href="https://www.instagram.com/" target="_blank"
+								><img src="images/inst.png" alt="" class="social"
+							/></a>
+						</div>
+					</div>
+
+					<div class="feedBack-right__column">
+						<h3 class="feedBack__header">АВТОРИЗАЦИЯ</h3>
+
+						<h3 class="feedBack-h3">Контактная информация:</h3>
+
+						<form action="validation/auth.php" method="post">
+							<div class="feedBack-input">
+								<input
+									type="email"
+									class="form__input"
+									name="login"
+									placeholder="Логин"
+									id="text"
+									required
+								/>
+
+								<input
+									type="password"
+									class="form__input"
+									name="pass"
+									placeholder="Пароль"
+									id="phone"
+									required
+								/>
+
+								<p class="feedBack-p">Опишите Ваши жалобы или оставьте отзыв</p>
+								<textarea cols="30" rows="10" class="feedBack__textArea">
+								</textarea>
+
+								<p class="feedBack-p">Если у вас еще нет аккаунта, перейдите на страницу <a href="index4.html" class="feedback-link">регистрации</a></p>
+
+								<button class="feedBack__btn" id="button">Вход</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
